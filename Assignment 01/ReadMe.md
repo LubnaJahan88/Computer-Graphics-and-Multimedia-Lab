@@ -1,3 +1,9 @@
+Name: Lubna Jahan Lipa 
+
+Id: 0432310005101088 
+
+Section: 6B2
+
 🎨 Cyan Window Assignment
 
 📌 Objective:
