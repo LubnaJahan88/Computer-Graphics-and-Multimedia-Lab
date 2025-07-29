@@ -19,7 +19,7 @@ int main()
 #ifdef __APPLE__
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
-
+    // Create GLFW window with your full name as title
     GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Lubna Jahan", NULL, NULL);
     if (window == NULL)
     {
@@ -39,7 +39,7 @@ int main()
     while (!glfwWindowShouldClose(window))
     {
         processInput(window);
-
+        //Set background color to cyan
         glClearColor(0.0f, 1.0f, 1.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
@@ -53,8 +53,7 @@ int main()
 
 void processInput(GLFWwindow *window)
 {
-    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-        glfwSetWindowShouldClose(window, true);
+    //Pressing 'L' closes the window (first letter of "Lubna")
     if (glfwGetKey(window, GLFW_KEY_L) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
 }
