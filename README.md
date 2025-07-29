@@ -4,42 +4,65 @@ Id: 0432310005101088
 
 Section: 6B2
 
+Computer Graphics and Animations - Modern OpenGL
 
-🎨 Cyan Window Assignment
+This repository contains my work on Modern OpenGL 3.3 based on the problems and exercises from learnopengl.com. The projects and lab works are based on the CSE 357/358 course (Sessional Based on Computer Graphics and Animations). All credit for the course content goes to the instructor AudityGhosh, Lecturer, UITS and learnopengl.com.
 
-📌 Objective:
+Project Overview
 
-This is my OpenGL Lab assignment where I create a cyan-colored window titled with my full name. If the first letter of my name is pressed, the window closes.
+The repository covers a variety of topics, including:
 
-✅ This repository contains:
+Basic Window Creation
+Basic Triangle Creation
+VAO, VBO, EBO
+Shaders
+Textures
+Transformations
+Interpolation
+Coordinate Systems
+3D Objects Rendering
+Each problem folder contains the source code and relevant shader files, along with explanations or instructions on how to run them.
 
-Fully working OpenGL C++ code
+Folder Structure
 
-Proper comments and formatting
+The folder structure is organized as follows:
 
-Screenshot showing output and terminal (proof of execution)
+Computer_Graphics_and_Animations_Modern_OpenGL/
 
-What it does:
+├── README.md
+├── Problem/
+│   ├── shader.fs
+│   ├── shader.vs
+│   ├── glad.c
+│   ├── main.cpp
 
-Creates cyan colored window with named after my name "Lubna Jahan"
-Closes window when "L" or "l" is pressed on keybord
+File Descriptions
 
-🛠 Requirements:
+.cpp Files: These contain the main C++ code to set up the OpenGL window, shaders, and transformations.
 
-C++ Compiler (g++, clang++, or MSVC)
+.fs and .vs Files: These are the fragment and vertex shader files for handling graphical rendering.
 
-GLFW
+glad.c: This file is used to load OpenGL functions.
 
-GLAD for OpenGL loading
+How to Use
 
-OpenGL installed
+Clone the repository:
 
-📂 Files:
+git clone https://github.com/AudityGhosh/Computer_Graphics_and_Animations_Modern_OpenGL.git
+Navigate to the problem directory and compile the code:
 
-File	Description
+For C++ solutions:
 
-main.cpp Main OpenGL source code
+g++ main.cpp -o program
+./program
+For Shader files, make sure to link the appropriate shader files and resources as needed in the main.cpp file.
 
-README.md	This readme file
+Contributing
 
-screenshot.png	Output window + terminal screenshot
+Feel free to fork the repository and contribute by adding improvements, fixes, or new exercises. Submit a pull request for any contributions.
+
+License
+
+This project is open-source and available under the MIT License.
+
+Note: This repository is for educational purposes and includes all the lab works and exercises as part of the CSE 358 course.
