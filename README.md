@@ -4,7 +4,8 @@ Section: 6B2
 
 🎨 Cyan Window Assignment
 
-📌 Objective
+📌 Objective:
+
 This is my OpenGL Lab assignment where I create a cyan-colored window titled with my full name. If the first letter of my name is pressed, the window closes.
 
 ✅ This repository contains:
@@ -13,17 +14,20 @@ Fully working OpenGL C++ code
 Proper comments and formatting
 Screenshot showing output and terminal (proof of execution)
 
-What it does
+What it does:
+
 Creates cyan colored window with named after my name "Lubna Jahan"
 Closes window when "L" or "l" is pressed on keybord
 
-🛠 Requirements
+🛠 Requirements:
+
 C++ Compiler (g++, clang++, or MSVC)
 GLFW
 GLAD for OpenGL loading
 OpenGL installed
 
-📂 Files
+📂 Files:
+
 File	Description
 main.cpp	Main OpenGL source code
 README.md	This readme file
